@@ -223,12 +223,22 @@
       VanillaTilt.init(document.querySelectorAll(".home-container"), {
         max: 50,
         speed: 700,
-	gyroscope: true      
+	glare: true,
+	gyroscope: true,
+	gyroscopeMinAngleX: -45,    
+	gyroscopeMaxAngleX: 45,
+	gyroscopeMinAngleY: -45,
+	gyroscopeMaxAngleY: 45     
       });
       VanillaTilt.init(document.querySelectorAll(".home-title-detail"), {
         max: 55,
         speed: 200,
-	gyroscope: true
+	glare: true,
+	gyroscope: true,
+	gyroscopeMinAngleX: -45,    
+	gyroscopeMaxAngleX: 45,
+	gyroscopeMinAngleY: -45,
+	gyroscopeMaxAngleY: 45 
       });
     }
   </script>
